@@ -1,0 +1,11 @@
+.header{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.btn{
+    background-color: aqua;
+    width: 50px;
+}
