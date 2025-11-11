@@ -39,11 +39,15 @@ useEffect(() => {
 
 <div className='flex justify-center gap-3 '>
   <button
+  style={{opacity:pageNo==1?0.5:1}}
 className='bg-yellow-900
 p-5 rounded-2xl'
 onClick={()=>{
-  setpage(pageNo-1)
+  if(pageNo>1){
+setpage(pageNo-1)
   setUserData([])
+  }
+  
 }}
 >
 Prev
