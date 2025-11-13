@@ -1,0 +1,32 @@
+*{
+ color: white; 
+}
+  body{
+  background: #000;
+  
+}
+.nav{
+  height: 50px;
+  background: #0dc3db;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  text-decoration: antiquewhite;
+}
+.head{
+  color: aliceblue;
+}
+h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 18%;
+}
