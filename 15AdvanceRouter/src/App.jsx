@@ -11,8 +11,9 @@ import Femaleprod from './pages/femaleprod';
 
 const App = () => {
   return (
-<>
-  <Navbar/>
+< >
+  <div className='h-screen bg-black text-amber-50'>
+    <Navbar/>
   <Routes>
     <Route path='/' element={<Home/>}></Route>
     <Route path='/about' element={<About/>}></Route>
@@ -22,6 +23,7 @@ const App = () => {
     <Route path='/products/female' element={<Femaleprod/>}></Route>
   </Routes>
   <Footer/>
+  </div>
 </>
   );
 }
